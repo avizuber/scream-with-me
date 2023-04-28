@@ -1,0 +1,76 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(ellipse at center, #6199B9 50%, #4385AB 100%);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+#overlay {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #5cacee;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  background: radial-gradient(ellipse at center, #B0E2FF 0%, #87CEEB 50%, #4385AB 100%);
+  width: 100%;
+
+
+}
+
+#overlay h1 {
+  font-size: 4em;
+  text-shadow: -3px 2px 0px BLACK;
+}
+
+#overlay p {
+  color: #2d6797;
+}
+
+#attribution {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #313131;
+  padding: .75em 1em;
+  border-radius: 4px 0px 0px 0px;
+}
+
+#attribution a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#startButton {
+  margin-top: 1em;
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #DCCBD9;
+  color: #9f6294;
+  border: 1px solid #DCCBD9;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#startButton:hover {
+  background-color: #2d6797;
+  border-color:#2d6797;
+  color: white;
+}
